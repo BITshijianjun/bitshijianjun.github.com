@@ -4,7 +4,7 @@
   <title><![CDATA[Sunshine's Blog]]></title>
   <link href="http://bitshijianjun.github.io/atom.xml" rel="self"/>
   <link href="http://bitshijianjun.github.io/"/>
-  <updated>2015-09-02T08:39:05+08:00</updated>
+  <updated>2015-09-02T09:13:22+08:00</updated>
   <id>http://bitshijianjun.github.io/</id>
   <author>
     <name><![CDATA[Jianjun Shi]]></name>
@@ -18,67 +18,68 @@
     <link href="http://bitshijianjun.github.io/blog/2015/09/02/appt2015xiao-ji/"/>
     <updated>2015-09-02T08:18:12+08:00</updated>
     <id>http://bitshijianjun.github.io/blog/2015/09/02/appt2015xiao-ji</id>
-    <content type="html"><![CDATA[<p>&emsp;APPT(高级计算机并行处理技术研讨会)每两年一次，且国内国外交叉举办，对于仅有的两年半研究生光阴而言，能参加一次，也算很幸运。本次会议，由中国计算机学会体系结构专委会和浪潮集团承办，在济南高新区的喜来登酒店进行。比之于上次参加Chinasys的紧张，团体5人组的小分队，定下的是轻松愉悦的基调。比较遗憾的是，参会的很多都是体系结构届大牛，跟我等小喽啰，基本没有交流。废话不多说，还是记录下本次会议，自己的收获吧。
-&emsp;会议安排为8月20日，8月21日两天。<br/>
-&emsp;按照惯例，第一天上午，体系结构届大佬做一些开场性的报告：<br/></p>
+    <content type="html"><![CDATA[<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;APPT(高级计算机并行处理技术研讨会)每两年一次，且国内国外交叉举办，对于仅有的两年半研究生光阴而言，能参加一次，也算很幸运。本次会议，由中国计算机学会体系结构专委会和浪潮集团承办，在济南高新区的喜来登酒店进行。比之于上次参加Chinasys的紧张，团体5人组的小分队，定下的是轻松愉悦的基调。比较遗憾的是，参会的很多都是体系结构届大牛，跟我等小喽啰，基本没有交流。废话不多说，还是记录下本次会议，自己的收获吧。<br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;会议安排为8月20日，8月21日两天。按照惯例，第一天上午，体系结构届大佬做一些开场性的报告：<br/></p>
 
-<h2>中科院沈绪榜院士，芯片计算机体系结构的思考</h2>
+<h3>中科院沈绪榜院士，芯片计算机体系结构的思考</h3>
 
 <p>主要从数学思想，图灵机等的发展，提出芯片设计技术可以从可计算数的表示，可计算机数的操作和可计算性的操作三个方面，消除高级语言和汇编语言中不符合数学语言的概念和表示方法的内容，来提升芯片性能。<br/></p>
 
-<h2>北航钱德沛教授，中国高技术计划高性能计算发展的现状与未来</h2>
+<h3>北航钱德沛教授，中国高技术计划高性能计算发展的现状与未来</h3>
 
 <p>主要从近年来高性能计算的发展以及国家政策上，提出了高性能计算发展未来的三个方向：一，E级高性能计算系统研制；二，高性能应用软件开发；三，高性能计算环境的研发。<br/></p>
 
-<h2>马里兰大学屈钢教授，Hardware in Cybersecurity:from the Weakest Link to Great Promises</h2>
+<h3>马里兰大学屈钢教授，Hardware in Cybersecurity:from the Weakest Link to Great Promises</h3>
 
 <p>主要介绍硬件安全性的问题，因为没有做过这一块的，听不是太懂。只记得一个叫Cipher的工具，还有几个术语：
 TPM：Trust Platform Module，可信平台模块（Trusted Platform Module）是一种植于计算机内部为计算机提供可信根的芯片。该芯片的规格由可信计算组（Trusted Computing Group）来制定。符合TPM(可信赖平台模块)标准的安全芯片，它能有效地保护PC、防止非法用户访问。<br/>
 PUF： Physical Unclonable Function. 不可复制功能 (PUF) 技术可用于实现标签与阅读器的相互认证。PUF 技术采用硅片独特的物理特性和 IC 制造过程的变异性来识别各个硅芯片，判断它们的真伪性，无需采用密钥或存储密钥。 安全和认证方案提供商 Verayo 获此专利。</p>
 
-<h2>陈继承，高效能服务器和存储技术国家重点实验室</h2>
+<h3>陈继承，高效能服务器和存储技术国家重点实验室</h3>
 
 <p>主要介绍了高效能服务器的一些技术，浪潮的Inspur Tiansuo K1。<br/>
-&emps;8月20日下午，一些会议收录的论文和专家报告。分为两个会场，对于有选择综合症的人来说，想挑着听报告都有点麻烦。<br/></p>
+<br/>
+8月20日下午，一些会议收录的论文和专家报告。分为两个会场，对于有选择综合症的人来说，想挑着听报告都有点麻烦。<br/></p>
 
-<h2>Improving Memory Access Performance of In-Memory Key-Value Store using Data Prefetching Techniques</h2>
+<h3>Improving Memory Access Performance of In-Memory Key-Value Store using Data Prefetching Techniques</h3>
 
 <p>设计提出一种IMkvs的快速预取技术，解决大数据问题。<br/>
 关键设计技术：Memory Controller：IRR，PACU，PSCU.</p>
 
-<h2>DDC：Distributed Data Collection Framework for Failure Prediction in Tianhe Supercomputers  国防科大</h2>
+<h3>DDC：Distributed Data Collection Framework for Failure Prediction in Tianhe Supercomputers  国防科大</h3>
 
 <p>分布式数据收集技术。<br/>
 关键设计技术：DDC  Collector Manager: ES collector, RS collector, FS collector.</p>
 
-<h2>Optimizing the MapReduce Framework for CPU-MIC Heterogeneous Cluster  国防科大</h2>
+<h3>Optimizing the MapReduce Framework for CPU-MIC Heterogeneous Cluster  国防科大</h3>
 
 <p>主要介绍CPU-MIC 异构集群下优化的MapReduce框架。<br/>
 关键技术：在MapReduce System与MIC之间设计Runtime Library，MIC Memory Management采用Array Buffer和Combine Buffer两种模式。SIMD friendly map(向量友好map)和Pipeline Reduce。</p>
 
-<h2>Stable Matching Scheduler for Single-ISA Heterogeneous Multi-core Processor  中科院</h2>
+<h3>Stable Matching Scheduler for Single-ISA Heterogeneous Multi-core Processor  中科院</h3>
 
 <p>在异构多核处理器上采用stable matching scheduler 实现性能优化。<br/>
 特点：将经济学stable matching 应用于异构多核处理器，实现了性能提升。</p>
 
-<h2>Neural Network Processor  中科院</h2>
+<h3>Neural Network Processor  中科院</h3>
 
 <p>将人工神经网络应用于处理器设计。<br/>
 成果：DianNao : 采用硬件运算单元的分时复用技术，将硬件运算单元与算法神经元对应。小尺度但大规模支持神经网络。<br/>
-&emps;DaDianNao:多神经网络处理器。<br/>
-&emps;PuDianNao:针对不同机器学习算法的人工神经网络处理器。<br/>
-&emps;ShiDiannao:图像处理的人工神经网络处理器。</p>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DaDianNao:多神经网络处理器。<br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PuDianNao:针对不同机器学习算法的人工神经网络处理器。<br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ShiDiannao:图像处理的人工神经网络处理器。</p>
 
-<h2>Reproducing Concurrency Bugs Using Local Clocks  中科院</h2>
+<h3>Reproducing Concurrency Bugs Using Local Clocks  中科院</h3>
 
 <p>用本地时钟重现并行bug。主要解决三个问题：时钟差值d，out-of-order 执行，本地时钟overflow.这篇论文可作为文献参考，仔细阅读。</p>
 
-<h2>Energy Efficient Router: Architecture, Prototype and Algorithms  北理工</h2>
+<h3>Energy Efficient Router: Architecture, Prototype and Algorithms  北理工</h3>
 
-<p>路由器通过感知网络流量，自动调节各芯片工作，从能提升路由器性能。
-&emps;8月21日上午，专家报告。</p>
+<p>路由器通过感知网络流量，自动调节各芯片工作，从能提升路由器性能。<br/>
+<br/>
+8月21日上午，专家报告。</p>
 
-<h2>认知计算   秦勇，IBM中国研究院资深科学家</h2>
+<h3>认知计算   秦勇，IBM中国研究院资深科学家</h3>
 
 <p>介绍计算机发展，从制表时代，编程时代，到认知计算。
 认知计算研究的发展趋势：<br/>
@@ -88,9 +89,9 @@ Natural Language Text   to   Audio,Image,Video,other media,<br/>
 Captive   to   Ubiquitious<br/>
 Scalability  low   to    high<br/></p>
 
-<h2>New IT for Big Data and Mobile Cloud Era   陈宏，VMare研发总监</h2>
+<h3>New IT for Big Data and Mobile Cloud Era   陈宏，VMare研发总监</h3>
 
-<h2>大数据时代——并行数据库技术   宋一平，SAP</h2>
+<h3>大数据时代——并行数据库技术   宋一平，SAP</h3>
 
 <p>主要介绍并行数据库技术。
 涉及关键技术：<br/>
@@ -109,15 +110,16 @@ Scalability  low   to    high<br/></p>
 <table>
 <tbody>
 <tr><td></td><td><em>并行数据库</em></td><td><em>分布式数据库</em></td><tr>
-<tr><td>应用目标</td><td>提高数据库的性能和可用性</td><td>实现场地自治和数据的全局透明共享</td><tr>
-<tr><td>实现方式</td><td>结点间采用高速网络连接</td><td>结点间一般采用局域网或广域网相连</td><tr>
-<tr><td>结点地位</td><td>结点非独立</td><td>高度自治性</td><tr>
-</tbody
+<tr><td>应用目标&#160;&#160;&#160;&#160;</td><td>提高数据库的性能和可用性&#160;&#160;&#160;&#160;</td><td>实现场地自治和数据的全局透明共享</td><tr>
+<tr><td>实现方式&#160;&#160;&#160;&#160;</td><td>结点间采用高速网络连接&#160;&#160;&#160;&#160;</td><td>结点间一般采用局域网或广域网相连</td><tr>
+<tr><td>结点地位&#160;&#160;&#160;&#160;</td><td>结点非独立&#160;&#160;&#160;&#160;</td><td>高度自治性</td><tr>
+</tbody>
 </table>
 
 
-<p>&emps;8月21日下午，学术界与工业界研讨会。之前我一直认为将学术研究应用于实践才有价值，不能基于实际问题的研究也只能是空中楼阁。这次有了政府人员的参与，感受就与Chinasys不同，国家的高度，学术界和工业界本应该各司其职，就是研究的人就应该研究没有的东西，工业的人就该搞实际的量产。尽管如此，工业界与学术界的沟通仍然是一个很大的问题。当然，作为小硕一枚，还是觉得应该接地气的好，脚踏实地做好该做的研究，再说高屋建瓴的事。<br/>
-&emps;接下来，去参观了济南云计算中心，是个更轻松的环节。美女姐姐仔细介绍了浪潮的各种高效能服务器的研究，平台架构，操作系统，应用平台等技术以及其在各行各业的应用。最后的答谢晚宴，APPT2015圆满结束。</p>
+<p><br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8月21日下午，学术界与工业界研讨会。之前我一直认为将学术研究应用于实践才有价值，不能基于实际问题的研究也只能是空中楼阁。这次有了政府人员的参与，感受就与Chinasys不同，国家的高度，学术界和工业界本应该各司其职，就是研究的人就应该研究没有的东西，工业的人就该搞实际的量产。尽管如此，工业界与学术界的沟通仍然是一个很大的问题。当然，作为小硕一枚，还是觉得应该接地气的好，脚踏实地做好该做的研究，再说高屋建瓴的事。<br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;接下来，去参观了济南云计算中心，是个更轻松的环节。美女姐姐仔细介绍了浪潮的各种高效能服务器的研究，平台架构，操作系统，应用平台等技术以及其在各行各业的应用。最后的答谢晚宴，APPT2015圆满结束。</p>
 ]]></content>
   </entry>
   
